@@ -1016,4 +1016,8 @@
 			margin: 0;
 			font-weight: 300;
 			color: rgba(255,255,255,.6);
-		}	
+		}
+
+#main #content .row section p {
+  padding-top: 20px !important;
+}
