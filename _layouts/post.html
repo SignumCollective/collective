@@ -11,6 +11,12 @@ layout: default
 						<h2>{{ page.title }}</h2>
 					</header>
 					{{ page.content }}
+                                        {% if page.tags[0] %}
+                                        <p><strong>Written by {{ page.tags[0] }}</strong></p>
+                                        {% endif %}
+                                        {% if page.tags %}
+                                        <p><strong>Tags: {% for tag in page.tags %}<span style="color: gray;">{{ tag }}</span>&nbsp;{% endfor %}</strong></p>
+                                        {% endif %}
 				</section>
 			</div>
 		</div>
