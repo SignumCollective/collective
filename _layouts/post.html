@@ -12,7 +12,7 @@ layout: default
 					</header>
 					{{ page.content }}
                                         {% if page.tags[0] %}
-                                        <p><strong>Written by {{ page.tags[0] }}</strong></p>
+                                        <p><strong>Written by <a href="https://github.com/{{ page.tags[0] }}">{{ page.tags[0] }}</a></strong></p>
                                         {% endif %}
                                         {% if page.tags %}
                                         <p><strong>Tags: {% for tag in page.tags %}<span style="color: gray;">{{ tag }}</span>&nbsp;{% endfor %}</strong></p>
