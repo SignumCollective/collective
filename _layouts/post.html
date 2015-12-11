@@ -15,7 +15,7 @@ layout: default
                                         <p><strong>Written by <a href="https://github.com/{{ page.tags[0] }}">{{ page.tags[0] }}</a></strong></p>
                                         {% endif %}
                                         {% if page.categories[0] %}
-                                        <p><string>Category: <span style="color: gray;">{{ page.category[0] }}</span></string></p>
+                                        <p><string>Category: <span style="color: gray;">{{ page.categories[0] }}</span></string></p>
                                         {% endif %}
                                         {% if page.tags %}
                                         <p><strong>Tags: {% for tag in page.tags %}<span style="color: gray;">{{ tag }}</span>&nbsp;{% endfor %}</strong></p>
