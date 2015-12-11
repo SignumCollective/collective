@@ -11,8 +11,8 @@ layout: default
 						<h2>{{ page.title }}</h2>
 					</header>
 					{{ content }}
-                                        {% if page.tags[0] %}
-                                        <p><strong>Written by <a href="https://github.com/{{ page.tags[0] }}">{{ page.tags[0] }}</a></strong></p>
+                                        {% if page.by %}
+                                        <p><strong>Written by <a href="https://github.com/{{ page.by }}">{{ page.by }}</a></strong></p>
                                         {% endif %}
                                         {% if page.categories[0] %}
                                         <p><strong>Category: <span style="color: gray;">{{ page.categories[0] }}</span></strong></p>
