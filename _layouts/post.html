@@ -20,6 +20,7 @@ layout: default
                                         {% if page.tags %}
                                         <p><strong>Tags: {% for tag in page.tags %}<span style="color: gray;">{{ tag }}</span>&nbsp;{% endfor %}</strong></p>
                                         {% endif %}
+                                        {% include comments.html %}
 				</section>
 			</div>
 		</div>
