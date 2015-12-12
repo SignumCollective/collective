@@ -1,7 +1,10 @@
 name: ID10T Errors
 description: A CTF team
 paginate: 10
-markdown: redcarpet
+#markdown: redcarpet
+kramdown:
+  input: GFM
 gems:
   - jekyll-paginate
-  - redcarpet
+#  - redcarpet
+#This should revert jekyll back to kramdown, and tell it to use GitHub Flavored Markdown
