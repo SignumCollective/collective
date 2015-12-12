@@ -10,7 +10,7 @@ layout: default
 					<header>
 						<h2>{{ page.title }}</h2>
 					</header>
-					{{ content }}
+					{{ content | markdownify}}
                                         {% if page.by %}
                                         <p><strong>Written by <a href="https://github.com/{{ page.by }}">{{ page.by }}</a></strong></p>
                                         {% endif %}
