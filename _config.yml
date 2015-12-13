@@ -3,9 +3,9 @@ description: A CTF team
 paginate: 10
 domain: ctftoolkit.com
 #markdown: redcarpet
-kramdown:
-  input: GFM
+redcarpet:
+    extensions: ["tables", "autolink", "strikethrough", "with_toc_data", "highlight", "footnotes"]
 gems:
   - jekyll-paginate
-#  - redcarpet
-#This should revert jekyll back to kramdown, and tell it to use GitHub Flavored Markdown
+  - redcarpet
+
