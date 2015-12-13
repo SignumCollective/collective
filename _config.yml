@@ -2,7 +2,7 @@ name: ID10T Errors
 description: A CTF team
 paginate: 10
 domain: ctftoolkit.com
-#markdown: redcarpet
+markdown: redcarpet
 redcarpet:
     extensions: ["tables", "autolink", "strikethrough", "with_toc_data", "highlight", "footnotes"]
 gems:
