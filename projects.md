@@ -7,14 +7,14 @@ by: ztaylor54
 		ul li {
 			list-style-type: circle;
 		}
-		h1 {
+		h1, h2 {
 	  		margin-top: 10px;
 		 	text-align: center;
 		 	border-bottom: 1px solid #eee;
 		 	font-weight: bold;
 		 	padding-bottom: 0.3em;
 		}
-		h2, h3, h5, h6 {
+		h3, h5, h6 {
 		  	text-align: left;
 			margin-top: 10px;
 		    	border-bottom: 1px solid #eee;
@@ -25,7 +25,7 @@ by: ztaylor54
     			margin-top: 10px;
     			font-size: 200%;
     			margin-bottom: 10px;
-    			text-align: center;
+    			text-align: left;
     			border-bottom: 1px solid #eee;
     			font-weight: bold;
     			padding-bottom: 0.3em;
