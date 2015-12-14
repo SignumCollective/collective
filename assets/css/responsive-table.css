@@ -1,104 +1,144 @@
-@import "compass/css3";
-
-// More practical CSS...
-// using mobile first method (IE8,7 requires respond.js polyfill https://github.com/scottjehl/Respond)
-
-$breakpoint-alpha: 480px; // adjust to your needs
-
-.rwd-table {
-  margin: 1em 0;
-  min-width: 300px; // adjust to your needs
-  
-  tr {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!   
-  }
-  
-  td {
-    display: block; 
-    
-    &:first-child {
-      padding-top: .5em;
-    }
-    &:last-child {
-      padding-bottom: .5em;
-    }
-
-    &:before {
-      content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
-      font-weight: bold;
-
-      // optional stuff to make it look nicer
-      width: 6.5em; // magic number :( adjust according to your own content
-      display: inline-block;
-      // end options
-      
-      @media (min-width: $breakpoint-alpha) {
-        display: none;
-      }
-    }
-  }
-  
-  th, td {
-    text-align: left;
-    
-    @media (min-width: $breakpoint-alpha) {
-      display: table-cell;
-      padding: .25em .5em;
-      
-      &:first-child {
-        padding-left: 0;
-      }
-      
-      &:last-child {
-        padding-right: 0;
-      }
-    }
-
-  }
-  
-  
-}
-
-
-// presentational styling
-
-@import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
 
 body {
-  padding: 0 2em;
-  font-family: Montserrat, sans-serif;
-  -webkit-font-smoothing: antialiased;
+  background-color: #3e94ec;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   text-rendering: optimizeLegibility;
-  color: #444;
-  background: #eee;
 }
 
-h1 {
-  font-weight: normal;
-  letter-spacing: -1px;
-  color: #34495E;
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
 }
 
-.rwd-table {
-  background: #34495E;
-  color: #fff;
-  border-radius: .4em;
-  overflow: hidden;
-  tr {
-    border-color: lighten(#34495E, 10%);
-  }
-  th, td {
-    margin: .5em 1em;
-    @media (min-width: $breakpoint-alpha) { 
-      padding: 1em !important; 
-    }
-  }
-  th, td:before {
-    color: #dd5;
-  }
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
 }
