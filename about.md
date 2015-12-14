@@ -23,6 +23,9 @@ by: ztaylor54
 		table {
 			margin: 0 auto;
 		}
+		p {
+    			text-align: center;
+		}
 </style>
 
 #Who are the `ID10T Errors`?
