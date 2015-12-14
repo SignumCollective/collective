@@ -18,7 +18,6 @@ by: ztaylor54
 		h4 {
     			margin-top: 10px;
     			font-size: 200%;
-    			margin-bottom: 10px;
     			text-align: left;
     			border-bottom: 1px solid #eee;
     			font-weight: bold;
