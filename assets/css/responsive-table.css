@@ -81,3 +81,7 @@ table th, table td {
 table th, table td:before {
   color: #dd5;
 }
+
+table {
+  width: 100%;
+}
