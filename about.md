@@ -3,13 +3,15 @@ layout: about
 title: About Us
 by: ztaylor54
 ---
-#Competition History:
 
-|           CTF                   |   Place  | Points  | Writeups |
-|:-------------------------------:|:--------:|---------|----------|
-| [PicoCTF 2014][ctf1]            | 277/3185 |  1650   | No       |
-| [EasyCTF 2014][ctf2]            | 67/1088  |  2035   | No       |
-| [CSAW HSF 2015][ctf3]*          |          |         | No       |
-| [EasyCTF 2015][ctf4]            | 82/1636  |  5335   | [Yes][1] |
-| [SCTF 2015: Broken Bytes][ctf5] | 46/868   |  640    | [Yes][2] |
-| [Seccon CTF 2015][ctf6]*        | 436/872  |  300    | [Yes][3] |
+#Who are the `ID10T Errors`?
+We are a CTF based in Texas, consisting of high school students who are also aspiring computer scientists! I've created this page to give each team member a chance to tell you a little about themselves. Feel free to send us an email at [admin@ctftoolkit.com](mailto:admin@ctftoolkit.com) if you have any questions, or would like us to help with a project!  
+  
+#Current Members  
+  
+| Name              | Alias                                         | Member Since |
+|-------------------|-----------------------------------------------|--------------|
+| Zachary Taylor    | [ztaylor54](https://github.com/ztaylor54)     | 2012         |
+| Christopher Holle | [cholle13](https://github.com/cholle13)       | 2012         |
+| Jacqui Deans      | [jdeans289](https://github.com/jdeans289)     | 2013         |
+| Zebulon McCorkle  | [zebMcCorkle](https://github.com/zebmccorkle) | 2015         |
