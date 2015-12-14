@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: about
 title: Competition History
 by: ztaylor54
 ---
