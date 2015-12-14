@@ -9,6 +9,7 @@ by: ztaylor54
 		}
 		h1, h2{
 		  margin-top: 10px;
+		  margin-bottom: 30px;
 		  text-align: center;
 		}
 		h3, h4, h5, h6 {
