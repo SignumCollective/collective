@@ -15,8 +15,10 @@ by: ztaylor54
 			margin-top: 10px;
 		}
 		h4 {
-			margin-top: 10px;
-			font-size: 140%;
+    			margin-top: 10px;
+    			font-size: 200%;
+    			margin-bottom: 10px;
+    			text-align: center;
 		}
 		table {
 			margin: 0 auto;
