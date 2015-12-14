@@ -4,14 +4,6 @@ title: Competition History
 by: ztaylor54
 ---
 
-<style>
-  table {
-    width: 100%;
-  }
-  td {
-    text-align: center;
-  }
-</style>
 
 |           CTF                   |   Place  | Points  | Writeups       |
 |:-------------------------------:|:--------:|---------|----------------|
