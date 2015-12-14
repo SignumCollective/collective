@@ -8,7 +8,6 @@ by: ztaylor54
       margin-top: 10px;
 		 	text-align: center;
 		 	border-bottom: 1px solid #eee;
-		 	font-weight: bold;
 		 	padding-bottom: 0.3em;
   }
 </style>
