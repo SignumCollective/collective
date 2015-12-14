@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<!-- Main -->
+	<div id="main">
+		<div id="content" class="container">
+			<div class="row">
+				<section class="8u -2u">
+					<header>
+						<h2>{{ page.title }}</h2>
+					</header>
+					{{ content }}
+                                        {% if page.by %}
+                                        <p><strong>Written by <a href="https://github.com/{{ page.by }}">{{ page.by }}</a></strong></p>
+                                        {% endif %}
+				</section>
+			</div>
+		</div>
+	</div>
