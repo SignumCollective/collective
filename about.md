@@ -22,7 +22,8 @@ by: ztaylor54
 #Who are the `ID10T Errors`?
 We are a CTF based in Texas, consisting of high school students who are also aspiring computer scientists! I've created this page to give each team member a chance to tell you a little about themselves. Feel free to send us an email at [admin@ctftoolkit.com](mailto:admin@ctftoolkit.com) if you have any questions, or would like us to help with a project!  
   
-#Current Members  <br>
+#Current Members  
+<br>
 
 | Name              | Alias                                         | Member Since |
 |-------------------|-----------------------------------------------|--------------|
