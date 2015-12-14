@@ -21,7 +21,7 @@ by: ztaylor54
 [ctf1]: https://picoctf.com/ "PicoCTF 2014"
 [ctf2]: https://2014.easyctf.com/ "EasyCTF 2014"
 [ctf3]: https://hsf.csaw.io/ "CSAW HSF 2015"
-[ctf4]: https://www.easyctf.com/ "EasyCTF 2015"
+[ctf4]: https://easyctf.com/ "EasyCTF 2015"
 [ctf5]: http://sctf.io/ "SCTF 2015: Broken Bytes"
 [ctf6]: http://ctf.seccon.jp/ "Seccon CTF 2015"
 
