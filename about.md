@@ -11,8 +11,12 @@ by: ztaylor54
 		  margin-top: 10px;
 		  text-align: center;
 		}
-		h3, h4, h5, h6 {
+		h3, h5, h6 {
 			margin-top: 10px;
+		}
+		h4 {
+			margin-top: 10px;
+			font-size: 140%;
 		}
 		table {
 			margin: 0 auto;
@@ -22,8 +26,7 @@ by: ztaylor54
 #Who are the `ID10T Errors`?
 We are a CTF based in Texas, consisting of high school students who are also aspiring computer scientists! I've created this page to give each team member a chance to tell you a little about themselves. Feel free to send us an email at [admin@ctftoolkit.com](mailto:admin@ctftoolkit.com) if you have any questions, or would like us to help with a project!  
   
-#Current Members  
-<br>
+####Current Members  
 
 | Name              | Alias                                         | Member Since |
 |-------------------|-----------------------------------------------|--------------|
