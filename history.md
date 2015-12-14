@@ -3,7 +3,11 @@ layout: about
 title: Competition History
 by: ztaylor54
 ---
-
+<style>
+  h2 {
+  text-align: center;
+  }
+</style>
 
 |           CTF                   |   Place  | Points  | Writeups       |
 |:-------------------------------:|:--------:|---------|----------------|
