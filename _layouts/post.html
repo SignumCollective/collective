@@ -20,7 +20,9 @@ layout: default
                                         {% if page.tags %}
                                         <p><strong>Tags: {% for tag in page.tags %}<span style="color: gray;">{{ tag }}</span>&nbsp;{% endfor %}</strong></p>
                                         {% endif %}
+                                        {% if current[1] != 'history.html' %}
                                         {% include comments.html %}
+                                        {% endif %}
 				</section>
 			</div>
 		</div>
