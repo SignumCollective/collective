@@ -39,6 +39,6 @@ Code-Editor is a beautiful in-browser programming tool created using [Code-Mirro
 ####[Signum Workshop](https://github.com/ID10T-Errors/signum-workshop-client)
 Signum Workshop is a hands-on programming client designed for the Computer Science I class at Brenham High School. Currently a work-in-progress, it will soon be hosted on this website allowing students to solve basic `Java` programming problems and send them to a server, where they will be compiled and run against custom test-cases.  
 
-A **very**, ***very*** broken development version* of this project is available at [ctftoolkit.com/signum-workshop-client](http://www.ctftoolkit.com/signum-workshop-client).  
+A **very**, ***very*** broken development version* of this project is available at [ctftoolkit.com/signum-workshop-client](http://www.ctftoolkit.com/signum-workshop-client/#/section/1/1).
 
 *Most of the development to-date has been on the back-end, so the web UI is very primitive.
