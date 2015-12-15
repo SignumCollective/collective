@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Competition History
+title: Hacking Competitions
 by: ztaylor54
 ---
 <style>
@@ -11,6 +11,11 @@ by: ztaylor54
 		 	padding-bottom: 0.3em;
   }
 </style>
+In addition to our current projects, we have a CTF team where we compete in hacking competitions! We mainly participate in jeopardy-style events, where teams are presented with problems of increasing difficulty to test their skills in several areas of computer science! Some of the common categories are cryptography, web, recon, programming, binary exploitation, and many more!
+
+If you would like to learn more about Capture-The-Flag competitions, check out [this wikipedia page](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security). You can find our team, the `ID10T Errors`, on [ctftime.org](https://ctftime.org/team/21165) as well!
+
+####Competition History
 
 |           CTF                   |   Place  | Points  | Writeups       |
 |:-------------------------------:|:--------:|---------|----------------|
