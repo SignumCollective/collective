@@ -742,7 +742,7 @@
 	
 	ul.contact li span
 	{
-		display: none;
+		/* display: none; */
 		margin: 0;
 		padding: 0;
 	}
