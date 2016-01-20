@@ -4,6 +4,27 @@ title: Our Minecraft Server
 by: ztaylor54
 ---
 
+<style>
+		ul li {
+			list-style-type: circle;
+		}
+		h1, h2 {
+	  		margin-top: 10px;
+		 	text-align: center;
+		}
+		h3, h5, h6 {
+		  	text-align: left;
+			margin-top: 10px;
+		}
+		h4 {
+    			margin-top: 10px;
+    			font-size: 200%;
+    			text-align: center;
+    			border-bottom: 1px solid #eee;
+    			padding-bottom: 0.3em;
+    }
+</style>
+
 <a href="http://topg.org/minecraft_banner_maker"><img src="http://topg.org/image/030116/109750.gif" alt="Minecraft Banner Maker"></a>  
   
 
