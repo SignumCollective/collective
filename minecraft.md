@@ -29,9 +29,7 @@ by: ztaylor54
 	}
 </style>
 
-<div class="center-image">
-<a href="http://topg.org/Minecraft"><img src="http://topg.org/image/030116/109750.gif" alt="Best Minecraft Servers"></a>
-</div>
+<a href="http://topg.org/Minecraft"><img src="http://topg.org/image/030116/109750.gif" alt="Best Minecraft Servers" class="center-image"></a>
 
 ####Server Info
 Until further permissions plugins/mods are implemented, this server page will be hidden and the server will be whitelisted. To request access to the server, please contact <mailto:admin@ctftoolkit.com>.  
