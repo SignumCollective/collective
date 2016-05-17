@@ -27,7 +27,6 @@ by: ztaylor54
 		}
 </style>
 
-####What is the Signum Collective?
 We are a group of students based in Texas, who are aspiring computer scientists! We work together to solve real-world problems with our skills in computer science, and we make sure to have plenty of fun along the way! I've created this page to give each team member a chance to tell you a little about themselves, but it's still a work-in-progress. Feel free to send us an email at [admin@ctftoolkit.com](mailto:admin@ctftoolkit.com) if you have any questions, or would like us to help with a project!
   
 ####Current Members  
