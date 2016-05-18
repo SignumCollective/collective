@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Us
-by: ztaylor54
+#by: ztaylor54
 ---
 <style>
 		ul li {
