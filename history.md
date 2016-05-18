@@ -15,7 +15,7 @@ In addition to our current projects, we have a CTF team where we compete in hack
 
 If you would like to learn more about Capture-The-Flag competitions, check out [this wikipedia page](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security). You can find our team, the `ID10T Errors`, on [ctftime.org](https://ctftime.org/team/21165) as well!
 
-##Competition History
+## Competition History
 
 |           CTF                   |   Place  | Points  | Writeups       |
 |:-------------------------------:|:--------:|---------|----------------|
